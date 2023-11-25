@@ -1,14 +1,91 @@
-15:01:58.435 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
-15:01:58.457 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-15:01:58.458 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-15:01:58.470 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@62628e78
-15:01:58.501 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-15:01:58.501 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
-15:01:58.507 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-15:01:58.507 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-15:01:58.509 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-15:01:58.509 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-15:01:58.511 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
+18:37:37.441 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+18:37:37.456 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@36a6bea6
+18:37:37.457 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7661b5a
+18:37:37.458 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7c36db44
+18:37:37.459 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@65c33b92
+18:37:37.469 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7903d448
+18:37:37.470 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4e08acf9
+18:37:37.471 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@42ea287
+18:37:37.473 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@78cd163b
+18:37:37.474 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1f0b3cfe
+18:37:37.475 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@14ef2482
+18:37:37.476 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@65a48602
+18:37:37.476 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@75483843
+18:37:37.477 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@336206d8
+18:37:37.478 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5ec4ff02
+18:37:37.479 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1f11f64e
+18:37:37.480 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b2f5fcf
+18:37:37.494 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+18:37:37.494 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+18:37:37.494 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+18:37:37.494 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+18:37:37.494 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+18:37:37.494 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+18:37:37.494 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+18:37:37.494 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+18:37:37.494 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+18:37:37.494 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+18:37:37.495 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+18:37:37.495 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+18:37:37.504 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+18:37:37.504 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+18:37:37.504 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+18:37:38.073 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 18156 (auto-detected)
+18:37:38.075 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+18:37:38.075 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+18:37:38.084 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+18:37:38.084 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+18:37:38.111 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 48:a4:72:ff:fe:6a:5e:0a (auto-detected)
+18:37:38.147 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+18:37:38.147 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+18:37:38.148 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3b61e2c8
+18:37:38.163 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+18:37:38.163 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+18:37:38.164 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+18:37:38.164 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+18:37:38.716 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+18:37:38.798 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x5e0e8103edd58e79
+18:37:38.837 [main] INFO  stepDefinitions.Stepdef - ************* Launching Browser *****************
+18:37:38.857 [main] INFO  stepDefinitions.Stepdef - ************* Opening URL  *****************
+18:37:42.466 [main] INFO  stepDefinitions.Stepdef - ************* Prvding user and password *****************
+18:37:42.693 [main] INFO  stepDefinitions.Stepdef - ************* click on login *****************
+18:37:45.433 [main] INFO  stepDefinitions.Stepdef - ********* Verifying Dashboad page title after login successful **************
+18:37:48.460 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer main menu **************
+18:37:50.526 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer sub menu **************
+18:38:01.915 [main] INFO  stepDefinitions.Stepdef - ********* Saving customer details **************
+18:38:05.061 [main] INFO  stepDefinitions.Stepdef - ************* loding browser *****************
+18:38:05.061 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+18:38:05.960 [main] INFO  stepDefinitions.Stepdef - ************* Launching Browser *****************
+18:38:05.963 [main] INFO  stepDefinitions.Stepdef - ************* Opening URL  *****************
+18:38:09.554 [main] INFO  stepDefinitions.Stepdef - ************* Prvding user and password *****************
+18:38:09.770 [main] INFO  stepDefinitions.Stepdef - ************* click on login *****************
+18:38:12.026 [main] INFO  stepDefinitions.Stepdef - ********* Verifying Dashboad page title after login successful **************
+18:38:15.098 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer main menu **************
+18:38:17.160 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer sub menu **************
+18:38:18.388 [main] INFO  stepDefinitions.Stepdef - ********* Searching customer details by Email **************
+18:38:21.630 [main] INFO  stepDefinitions.Stepdef - ************* loding browser *****************
+18:38:21.630 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+18:38:22.483 [main] INFO  stepDefinitions.Stepdef - ************* Launching Browser *****************
+18:38:22.483 [main] INFO  stepDefinitions.Stepdef - ************* Opening URL  *****************
+18:38:26.019 [main] INFO  stepDefinitions.Stepdef - ************* Prvding user and password *****************
+18:38:26.249 [main] INFO  stepDefinitions.Stepdef - ************* click on login *****************
+18:38:28.348 [main] INFO  stepDefinitions.Stepdef - ********* Verifying Dashboad page title after login successful **************
+18:38:31.414 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer main menu **************
+18:38:33.507 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer sub menu **************
+18:38:34.540 [main] INFO  stepDefinitions.Stepdef - ********* Searching customer details by Name **************
+18:38:37.842 [main] INFO  stepDefinitions.Stepdef - ************* loding browser *****************
+18:38:37.842 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+18:39:22.469 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+18:39:22.480 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+18:39:22.480 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+18:39:22.485 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2264e43c
+18:39:22.502 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+18:39:22.502 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+18:39:22.504 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+18:39:22.510 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+18:39:22.510 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+18:39:22.511 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+18:39:22.512 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
 java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
 	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
@@ -84,8 +161,8 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) ~[.cp/:?]
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) ~[.cp/:?]
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
-15:01:58.528 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-15:01:58.529 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+18:39:22.519 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+18:39:22.520 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
 java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1dfe2924
 	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
 	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
@@ -163,97 +240,115 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) ~[.cp/:?]
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) ~[.cp/:?]
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
-15:01:58.532 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-15:01:58.532 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-15:01:58.533 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4253024256 bytes (maybe)
-15:01:58.533 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\User\AppData\Local\Temp (java.io.tmpdir)
-15:01:58.533 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-15:01:58.533 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
-15:01:58.534 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-15:01:58.534 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-15:01:58.536 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-15:01:58.536 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-15:01:58.545 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-15:01:58.565 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-15:01:58.565 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-15:01:58.831 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-15:01:58.831 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-15:01:58.876 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-15:01:58.892 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-15:01:58.893 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-15:01:58.914 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@44e93c1f
-15:01:58.917 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7c36db44
-15:01:58.920 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@65c33b92
-15:01:58.922 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7903d448
-15:01:58.924 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4e08acf9
-15:01:58.927 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@42ea287
-15:01:58.929 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@78cd163b
-15:01:58.932 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1f0b3cfe
-15:01:58.934 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@14ef2482
-15:01:58.936 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@65a48602
-15:01:58.939 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@75483843
-15:01:58.940 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@336206d8
-15:01:58.943 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5ec4ff02
-15:01:58.945 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1f11f64e
-15:01:58.948 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b2f5fcf
-15:01:58.951 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@858d8b4
-15:01:59.008 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-15:01:59.008 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-15:01:59.008 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-15:01:59.008 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-15:01:59.009 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-15:01:59.009 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-15:01:59.009 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-15:01:59.009 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-15:01:59.009 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-15:01:59.010 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-15:01:59.010 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-15:01:59.010 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-15:01:59.032 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-15:01:59.033 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-15:01:59.033 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-15:01:59.481 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 13420 (auto-detected)
-15:01:59.483 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-15:01:59.483 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-15:01:59.495 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-15:01:59.497 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-15:01:59.538 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 48:a4:72:ff:fe:6a:5e:0a (auto-detected)
-15:01:59.600 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-15:01:59.600 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-15:01:59.600 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@678d74ff
-15:01:59.631 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-15:01:59.631 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-15:01:59.632 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-15:01:59.632 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-15:02:00.499 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-15:02:00.620 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe1dcea3c4db2333a
-15:02:00.680 [main] INFO  stepDefinitions.Stepdef - ************* Launching Browser *****************
-15:02:00.701 [main] INFO  stepDefinitions.Stepdef - ************* Opening URL  *****************
-15:02:04.941 [main] INFO  stepDefinitions.Stepdef - ************* Prvding user and password *****************
-15:02:05.761 [main] INFO  stepDefinitions.Stepdef - ************* click on login *****************
-15:02:09.390 [main] INFO  stepDefinitions.Stepdef - ********* Verifying Dashboad page title after login successful **************
-15:02:12.575 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer main menu **************
-15:02:14.803 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer sub menu **************
-15:02:29.752 [main] INFO  stepDefinitions.Stepdef - ********* Saving customer details **************
-15:02:33.803 [main] INFO  stepDefinitions.Stepdef - ************* loding browser *****************
-15:02:33.817 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
-15:02:35.216 [main] INFO  stepDefinitions.Stepdef - ************* Launching Browser *****************
-15:02:35.223 [main] INFO  stepDefinitions.Stepdef - ************* Opening URL  *****************
-15:02:38.903 [main] INFO  stepDefinitions.Stepdef - ************* Prvding user and password *****************
-15:02:39.682 [main] INFO  stepDefinitions.Stepdef - ************* click on login *****************
-15:02:44.360 [main] INFO  stepDefinitions.Stepdef - ********* Verifying Dashboad page title after login successful **************
-15:02:47.583 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer main menu **************
-15:02:49.742 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer sub menu **************
-15:02:51.566 [main] INFO  stepDefinitions.Stepdef - ********* Searching customer details by Email **************
-15:02:55.228 [main] INFO  stepDefinitions.Stepdef - ************* loding browser *****************
-15:02:55.228 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
-15:02:56.810 [main] INFO  stepDefinitions.Stepdef - ************* Launching Browser *****************
-15:02:56.810 [main] INFO  stepDefinitions.Stepdef - ************* Opening URL  *****************
-15:03:00.783 [main] INFO  stepDefinitions.Stepdef - ************* Prvding user and password *****************
-15:03:01.306 [main] INFO  stepDefinitions.Stepdef - ************* click on login *****************
-15:03:03.615 [main] INFO  stepDefinitions.Stepdef - ********* Verifying Dashboad page title after login successful **************
-15:03:06.890 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer main menu **************
-15:03:09.134 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer sub menu **************
-15:03:10.651 [main] INFO  stepDefinitions.Stepdef - ********* Searching customer details by Name **************
-15:03:15.074 [main] INFO  stepDefinitions.Stepdef - ************* loding browser *****************
-15:03:15.074 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+18:39:22.522 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+18:39:22.522 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+18:39:22.522 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4253024256 bytes (maybe)
+18:39:22.522 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\User\AppData\Local\Temp (java.io.tmpdir)
+18:39:22.522 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+18:39:22.523 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+18:39:22.523 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+18:39:22.523 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+18:39:22.524 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+18:39:22.524 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+18:39:22.530 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+18:39:22.544 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+18:39:22.544 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+18:39:22.673 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+18:39:22.673 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+18:39:22.694 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+18:39:22.701 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+18:39:22.701 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+18:39:22.710 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@78cd163b
+18:39:22.711 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@336206d8
+18:39:22.712 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5ec4ff02
+18:39:22.713 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1f11f64e
+18:39:22.714 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b2f5fcf
+18:39:22.715 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@858d8b4
+18:39:22.716 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@711d1a52
+18:39:22.717 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@612e21b9
+18:39:22.718 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@302edb74
+18:39:22.719 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7efd28bd
+18:39:22.720 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@672b72ba
+18:39:22.721 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7718a40f
+18:39:22.722 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@312b34e3
+18:39:22.724 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@26844abb
+18:39:22.725 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1a865273
+18:39:22.726 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@288ca5f0
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+18:39:22.745 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+18:39:22.754 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+18:39:22.754 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+18:39:22.754 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+18:39:22.996 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 16052 (auto-detected)
+18:39:22.998 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+18:39:22.998 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+18:39:23.006 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+18:39:23.007 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+18:39:23.033 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 48:a4:72:ff:fe:6a:5e:0a (auto-detected)
+18:39:23.066 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+18:39:23.066 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+18:39:23.066 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7fea2a23
+18:39:23.080 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+18:39:23.080 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+18:39:23.080 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+18:39:23.080 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+18:39:23.671 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+18:39:23.753 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x2e10d458e87eff5d
+18:39:23.795 [main] INFO  stepDefinitions.Stepdef - ************* Launching Browser *****************
+18:39:23.810 [main] INFO  stepDefinitions.Stepdef - ************* Opening URL  *****************
+18:39:27.163 [main] INFO  stepDefinitions.Stepdef - ************* Prvding user and password *****************
+18:39:27.395 [main] INFO  stepDefinitions.Stepdef - ************* click on login *****************
+18:39:29.200 [main] INFO  stepDefinitions.Stepdef - ********* Verifying Dashboad page title after login successful **************
+18:39:32.249 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer main menu **************
+18:39:34.356 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer sub menu **************
+18:39:45.340 [main] INFO  stepDefinitions.Stepdef - ********* Saving customer details **************
+18:39:48.776 [main] INFO  stepDefinitions.Stepdef - ************* loding browser *****************
+18:39:48.792 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+18:39:49.690 [main] INFO  stepDefinitions.Stepdef - ************* Launching Browser *****************
+18:39:49.707 [main] INFO  stepDefinitions.Stepdef - ************* Opening URL  *****************
+18:39:52.958 [main] INFO  stepDefinitions.Stepdef - ************* Prvding user and password *****************
+18:39:53.183 [main] INFO  stepDefinitions.Stepdef - ************* click on login *****************
+18:39:55.710 [main] INFO  stepDefinitions.Stepdef - ********* Verifying Dashboad page title after login successful **************
+18:39:58.720 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer main menu **************
+18:40:00.792 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer sub menu **************
+18:40:01.972 [main] INFO  stepDefinitions.Stepdef - ********* Searching customer details by Email **************
+18:40:05.215 [main] INFO  stepDefinitions.Stepdef - ************* loding browser *****************
+18:40:05.215 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+18:40:06.102 [main] INFO  stepDefinitions.Stepdef - ************* Launching Browser *****************
+18:40:06.117 [main] INFO  stepDefinitions.Stepdef - ************* Opening URL  *****************
+18:40:10.032 [main] INFO  stepDefinitions.Stepdef - ************* Prvding user and password *****************
+18:40:10.246 [main] INFO  stepDefinitions.Stepdef - ************* click on login *****************
+18:40:12.462 [main] INFO  stepDefinitions.Stepdef - ********* Verifying Dashboad page title after login successful **************
+18:40:15.526 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer main menu **************
+18:40:17.590 [main] INFO  stepDefinitions.Stepdef - ********* Clicking on customer sub menu **************
+18:40:18.637 [main] INFO  stepDefinitions.Stepdef - ********* Searching customer details by Name **************
+18:40:21.956 [main] INFO  stepDefinitions.Stepdef - ************* loding browser *****************
+18:40:21.956 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+18:40:22.806 [main] INFO  stepDefinitions.Stepdef - ************* Launching Browser *****************
+18:40:22.807 [main] INFO  stepDefinitions.Stepdef - ************* Opening URL  *****************
+18:40:26.064 [main] INFO  stepDefinitions.Stepdef - ************* Prvding user and password *****************
+18:40:26.272 [main] INFO  stepDefinitions.Stepdef - ************* click on login *****************
+18:40:28.279 [main] INFO  stepDefinitions.Stepdef - ************* Login Passed *****************
+18:40:31.288 [main] INFO  stepDefinitions.Stepdef - ************* clciking on logout *****************
+18:40:34.938 [main] INFO  stepDefinitions.Stepdef - ************* Login Passed *****************
+18:40:37.962 [main] INFO  stepDefinitions.Stepdef - ************* loding browser *****************
+18:40:37.962 [AsyncHttpClient-1-13] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+18:40:38.757 [main] INFO  stepDefinitions.Stepdef - ************* Launching Browser *****************
+18:40:38.758 [main] INFO  stepDefinitions.Stepdef - ************* Opening URL  *****************
+18:40:42.141 [main] INFO  stepDefinitions.Stepdef - ************* Prvding user and password *****************
+18:40:42.372 [main] INFO  stepDefinitions.Stepdef - ************* click on login *****************
+18:40:44.545 [main] INFO  stepDefinitions.Stepdef - ************* Login Passed *****************
+18:40:47.555 [main] INFO  stepDefinitions.Stepdef - ************* clciking on logout *****************
+18:40:51.180 [main] INFO  stepDefinitions.Stepdef - ************* Login Passed *****************
+18:40:54.207 [main] INFO  stepDefinitions.Stepdef - ************* loding browser *****************
+18:40:54.207 [AsyncHttpClient-1-16] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

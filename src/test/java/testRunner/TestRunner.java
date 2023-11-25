@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features=".//Features//Customer.feature//",
+		features=".//Features//",
 		glue="stepDefinitions",
 		tags= "@sanity or @regression",
 		plugin= {"pretty", 
